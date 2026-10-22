@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-82-no-ssl-tls-option-for-the-database-connection",
+    "fix/issue-84-swagger-ui-and-full-api-spec-are-exposed",
+    "fix/issue-86-user-role-column-defaults-to-issuer-privilege",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-82-no-ssl-tls-option-for-the-database-connection": "main",
+    "fix/issue-84-swagger-ui-and-full-api-spec-are-exposed": "main",
+    "fix/issue-86-user-role-column-defaults-to-issuer-privilege": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-82-no-ssl-tls-option-for-the-database-connection",
+    "fix/issue-84-swagger-ui-and-full-api-spec-are-exposed",
+    "fix/issue-86-user-role-column-defaults-to-issuer-privilege",
+    "origin"
+  ]
+}
